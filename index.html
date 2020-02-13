@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Voting</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="col d-flex justify-content-center">
+        <div class="row">
+            <h1>Анонимное голосование</h1>
+        </div>
+    </div>
+    <section class="mt-5 d-flex justify-content-around align-items-center">
+        <div class="button col-4">
+            <button type="button" class="cats" id="c" style="width: 210px;">Проголосовать за кота</button>
+        </div>
+        <div class="progress col-6">
+            <div class="progress-bar progresscats" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100"></div>
+        </div>
+        <div class="col2">
+            <span class="textcats">Text</span>
+        </div>
+    </section>
+    <section class="mt-5 d-flex justify-content-around align-items-center">
+        <div class="button col-4">
+            <button type="button" class="dogs" id="c" style="width: 210px;">Проголосовать за собаку</button>
+        </div>
+        <div class="progress col-6">
+            <div class="progress-bar progressdogs" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100"></div>
+        </div>
+        <div class="col2">
+            <span class="textdogs">Text</span>
+        </div>
+    </section>
+    <section class="mt-5 d-flex justify-content-around align-items-center">
+        <div class="button col-4">
+            <button type="button" class="parrots" id="c" style="width: 210px;">Проголосовать за попугая</button>
+        </div>
+        <div class="progress col-6">
+            <div class="progress-bar progressparrots" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0"
+                aria-valuemax="100"></div>
+        </div>
+        <div class="col2">
+            <span class="textparrots">Text</span>
+        </div>
+    </section>    
+    <script src="script.js"></script>
+</body>
+</html>
